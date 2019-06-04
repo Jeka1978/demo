@@ -1,0 +1,7 @@
+Count number of lines
+Count amount of trips to Boston longer than 10 km
+Calculate sum of all kilometers trips to Boston
+Find all useless drivers (which have 0 km trips) and print their names
+Write names of 3 drivers with max total kilometers (sort top to down)bonus: the same but only for today
+Count number of 0 km trips per each driver, sort it and print
+Find cities where 0 trips happen most
