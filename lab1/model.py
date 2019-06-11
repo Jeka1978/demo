@@ -10,4 +10,17 @@ class TaxiTrip:
     @staticmethod
     def fromLine(line):
         list = line.split(" ")
-        return TaxiTrip(list[0], list[1], int(list[2]))
+        return TaxiTrip(list[0], list[1].lower(), int(list[2]))
+
+
+
+
+
+
+
+
+
+
+
+
+
