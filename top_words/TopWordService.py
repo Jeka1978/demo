@@ -3,10 +3,9 @@ from os import getcwd
 from pyspark import SparkContext
 import re
 
+from pyspark.sql import SparkSession
+
 sc = SparkContext("local", "taxi")
-
-
-
 
 
 
@@ -30,4 +29,4 @@ def topX(path: str, x: int):
         print(w)
 
 
-topX("..\\songs\\beatles\\*", 3)
+topX("..\\songs\\pink floyd\\*", 3)
