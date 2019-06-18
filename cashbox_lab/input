@@ -1,0 +1,15 @@
+{ "client_id": 1, "cashbox_id": 3, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 3, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 2, "cashbox_id": 2, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 3, "product_id": 1, "timestamp": 150001 }
+{ "client_id": 4, "cashbox_id": 0, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 3, "cashbox_id": 3, "product_id": 4, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 1, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 5, "cashbox_id": 3, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 2, "product_id": 6, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 3, "product_id": 3, "timestamp": 150001 }
+{ "client_id": 10, "cashbox_id": 3, "product_id": 2, "timestamp": 150001 }
+{ "client_id": 1, "cashbox_id": 4, "product_id": 10, "timestamp": 150012 }
+{ "client_id": 7, "cashbox_id": 3, "product_id": 3, "timestamp": 1531 }
+{ "client_id": 8, "cashbox_id": 3, "product_id": 1, "timestamp": 1531 }
+{ "client_id": 9, "cashbox_id": 3, "product_id": 2, "timestamp": 1531 }

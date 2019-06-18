@@ -23,6 +23,10 @@ fields = df.schema.fields
 for f in fields:
     print(f.name)
 
+
+df.alias("rowDf")
+SparkHolder.spark.sql("select * from rowDf where age>30").show()
+
 salaryDf = df.withColumn(SALARY, ff.when(AGE_COL < 30, AGE_COL).otherwise(AGE_COL * 2) * ff.size(KEYWORDS) * 10)
 
 salaryDf.show()
