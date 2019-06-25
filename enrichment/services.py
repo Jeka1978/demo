@@ -10,7 +10,6 @@ beers={'tuborg','goldstar','leff','corona','malt','kriek','blanche','888','camel
 
 
 def initProducts():
-    faker = Faker()
 
     dict = {}
     i=1
@@ -34,8 +33,4 @@ class ProductService:
 
     def beerNameById(id):udf(lambda id:ProductService.dict[id],StringType())
 
-
-service = ProductService.dict[1]
-name = ProductService.getBeerName(id=1)
-print(name)
 
